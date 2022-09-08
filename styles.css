@@ -1,7 +1,7 @@
 #hero{
-    height: 70vh;
+    height: 80vh;
     background: url("./images/places/ocean.jpg") center/cover;
-}
+   }
 
 #hero-content{
     width: 40vw;
@@ -12,7 +12,7 @@
     padding: 35px 0;
     margin: 0 auto;
     position: relative;
-    top: 15vh;
+    top: 25vh;
 }
 
 #hero-content h1{

@@ -17,6 +17,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 #page-logo a{
@@ -37,6 +41,18 @@ header ul {
 
 header ul a {
    text-decoration: none;
+   color: rgb(255, 251, 0);
+   font-size: 16px;
+   letter-spacing: 2px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+   padding: 8px;
+   border-radius: 8px;
+}
+
+header ul a:hover,
+header ul a:active{
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
 }
 
 header ul li {
